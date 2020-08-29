@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`My Connected React-Redux Component should render with given state from Redux store 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    WEATHER
+  </header>
+  <div
+    className="weather-body"
+  >
+    <div>
+      <p
+        className="weather-city"
+      >
+        London
+      </p>
+      <p>
+        Rain
+      </p>
+      <div>
+        <p>
+          15
+          ℃ feels like
+           11
+          ℃
+        </p>
+        <p>
+          Humidity: 
+          67%
+        </p>
+        <p>
+          Pressure: 
+          1010hPa
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`My Connected React-Redux Component should render with no data Redux store 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    WEATHER
+  </header>
+  <div
+    className="weather-body"
+  >
+    <div>
+      <p
+        className="weather-city"
+      />
+    </div>
+  </div>
+</div>
+`;
